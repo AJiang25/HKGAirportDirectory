@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type="text/css" href='styles.css'>
+    <title>COMP3353 Assignment 2</title>
+</head>
+<body>
+    <header>
+        <h1>Hong Kong International Airport Flight Information</h1>
+    </header>
+    <div>
+        <script id="date" src="main.js"></script>
+    </div>
+    <div class="switch-container">
+        <span id="Departure">Departure</span>
+        <label class="switch">
+            <input type="checkbox" id="arrival_departure">
+            <span class="slider"></span>
+        </label>
+        <span id="Arrival">Arrival</span>
+        <button class="button" id="reload">Reload</button>
+    </div>
+    <div class="form">
+        <form id="flightForm">
+            <input type="text" placeholder="(location/airport)">
+            <button class="Search">Search</button>
+            <button class="Reset">Reset</button>
+        </form>
+    </div>
+    <div>
+        <p id="information"></p>
+    </div>
+    <div id = "card-container"></div>
+</body>
+</html>
